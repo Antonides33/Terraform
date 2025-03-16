@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1" # Change to your preferred region
-}
-
 # Create an S3 bucket
 resource "aws_s3_bucket" "example_bucket" {
   bucket = "dci-tera-bucket-${random_id.bucket_suffix.hex}"
