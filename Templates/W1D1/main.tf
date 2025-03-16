@@ -5,7 +5,6 @@ provider "aws" {
 # Create an S3 bucket
 resource "aws_s3_bucket" "example_bucket" {
   bucket = "my-bucket7788"
-  acl    = "private"
 
   tags = {
     Name        = "ExampleBucket"
