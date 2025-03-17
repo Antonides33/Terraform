@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "eu-central-1"
+
 # Create an S3 bucket
 resource "aws_s3_bucket" "example_bucket" {
   bucket = "dci-tera-bucket-44987"
