@@ -1,6 +1,6 @@
 # Create an S3 bucket
 resource "aws_s3_bucket" "example_bucket" {
-  bucket = "dci-tera-bucket-44987
+  bucket = "dci-tera-bucket-44987"
 
   tags = {
     Name        = "ExampleBucket"
