@@ -4,7 +4,7 @@ terraform {
     organization = "dci-teacher-aws"
 
     workspaces {
-      name = "Terraform"
+      name = "Terraform_test"
     }
   }
 }
